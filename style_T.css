@@ -266,3 +266,9 @@ footer {
         font-size: 12px;
     }
 }
+img {
+  max-width: 80%;       /* reduces broadness to 80% of container */
+  display: block;       /* centers properly */
+  margin: 0 auto;       /* keeps them centered */
+  height: auto;         /* keeps proportions */
+}
