@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Roam Rush</title>
+  <link rel="stylesheet" href="style_T.css" />
+  <style>
+    /* Page-Specific Enhancements */
+    .about-section {
+      max-width: 1000px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      line-height: 1.7;
+    }
+
+    .about-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #f1c40f;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .about-section p {
+      font-size: 1.05rem;
+      color: #2d3436;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    .about-section img {
+      display: block;
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 12px;
+      margin: 30px auto;
+    }
+
+    .mission {
+      background-color: #fef9e7;
+      border-left: 6px solid #f1c40f;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    .team-section {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .team-section h3 {
+      font-size: 2rem;
+      color: #0a1f44;
+      margin-bottom: 20px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .member {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .member:hover {
+      transform: translateY(-8px);
+    }
+
+    .member img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .member h4 {
+      margin: 10px 0 5px;
+      color: #2c3e50;
+    }
+
+    .member p {
+      color: #7f8c8d;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #7f8c8d;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        padding: 25px;
+      }
+
+      .member {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Roam Rush</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <h2>About Roam Rush</h2>
+    <p>
+      Welcome to <strong>Roam Rush</strong> — your ultimate travel companion designed to make exploring the world easier, smarter, and more inspiring. Our platform brings together the best destinations, travel guides, and personalized recommendations so you can create unforgettable adventures without the hassle.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80" alt="Travel Adventure" />
+
+    <div class="mission">
+      <h3>🌍 Our Mission</h3>
+      <p>
+        At Roam Rush, our mission is to inspire wanderlust and empower travelers to explore the world confidently. We believe that every journey transforms you — and we’re here to make each one smoother, safer, and more memorable. Whether you’re a solo traveler, a couple, or a family explorer, we bring you closer to the places you dream about.
+      </p>
+    </div>
+
+    <p>
+      Founded by passionate travelers, Roam Rush blends technology with travel storytelling to give users a seamless planning experience. From hidden gems to global hotspots, we curate everything with authenticity and local insight — ensuring that every destination feels like home.
+    </p>
+
+    <div class="team-section">
+      <h3>Meet Our Team</h3>
+      <div class="team-members">
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Team Member 1" />
+          <h4>Aisha Mehta</h4>
+          <p>Founder & Travel Strategist</p>
+        </div>
+
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&q=80" alt="Team Member 2" />
+          <h4>Riya Shah</h4>
+          <p>UI/UX Designer</p>
+        </div>
+
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1603415526960-f7e0328a3a5d?auto=format&fit=crop&w=400&q=80" alt="Team Member 3" />
+          <h4>Arjun Patel</h4>
+          <p>Web Developer</p>
+        </div>
+
+        <div class="member">
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Team Member 4" />
+          <h4>Meera Joshi</h4>
+          <p>Marketing & Outreach</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Roam Rush. All rights reserved.</p>
+  </footer>
+</body>
+</html>

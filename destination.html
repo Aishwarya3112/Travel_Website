@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Destinations | Roam Rush</title>
+  <link rel="stylesheet" href="style_T.css" />
+  <style>
+    /* Additional enhancements (can be moved to your CSS file) */
+    .Destinations {
+      padding: 50px 5%;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 15px;
+      backdrop-filter: blur(4px);
+      margin-top: 20px;
+    }
+
+    .Destinations h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #2c3e50;
+      margin-bottom: 40px;
+      border-bottom: 3px solid #f1c40f;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .destination-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      margin-bottom: 40px;
+      padding: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .destination-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+
+    .destination-card h3 {
+      font-size: 1.8rem;
+      color: #0a1f44;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .destination-card p {
+      text-align: justify;
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #2d3436;
+    }
+
+    .card-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .card-buttons button {
+      background-color: #f1c40f;
+      color: #2c3e50;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .card-buttons button:hover {
+      background-color: #d4ac0d;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .Destinations {
+        padding: 30px 3%;
+      }
+
+      .destination-card h3 {
+        font-size: 1.5rem;
+      }
+
+      .destination-card p {
+        font-size: 0.95rem;
+      }
+
+      .card-buttons button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Roam Rush</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destination.html" class="active">Destinations</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="Destinations">
+    <h2>Top Destinations</h2>
+
+    <!-- Maldives -->
+    <div class="destination-card">
+      <h3>Maldives</h3>
+      <img src="https://i.pinimg.com/originals/72/29/d0/7229d0861e8c5a9e9ed6178db008926f.jpg" alt="Maldives beach" />
+      <p>
+        The Maldives is a tropical paradise of turquoise lagoons, coral reefs, and luxury overwater villas. Dive among vibrant marine life, stroll white-sand beaches, and enjoy unmatched serenity — a blend of natural beauty and world-class hospitality. With its focus on sustainability and marine biodiversity, it remains one of the world’s most iconic island destinations.
+      </p>
+      <div class="card-buttons">
+        <a href="https://www.maldivesguide.com/travel-guide/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- Queenstown -->
+    <div class="destination-card">
+      <h3>Queenstown, New Zealand</h3>
+      <img src="https://images.myguide-cdn.com/queenstown/companies/queenstown-progressive-dinner-and-wine-tour-at-3-locations/large/queenstown-progressive-dinner-and-wine-tour-at-3-locations-1424870.jpg" alt="Queenstown, New Zealand" />
+      <p>
+        Nestled between Lake Wakatipu and the Southern Alps, Queenstown is the adventure capital of New Zealand. From bungee jumping and skiing to fine dining and wine tours, the town blends thrill and beauty with world-class hospitality and breathtaking alpine scenery.
+      </p>
+      <div class="card-buttons">
+        <a href="https://www.queenstownnz.co.nz/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- Kyoto -->
+    <div class="destination-card">
+      <h3>Kyoto, Japan</h3>
+      <img src="https://handluggageonly.co.uk/wp-content/uploads/2017/05/iStock-509472000.jpg" alt="Kyoto, Japan" />
+      <p>
+        Kyoto — the heart of Japan’s ancient culture. From golden temples and bamboo groves to serene gardens and tea ceremonies, it offers timeless elegance steeped in tradition. Walk through centuries of art, spirituality, and craftsmanship.
+      </p>
+      <div class="card-buttons">
+        <a href="https://kyoto.travel/en/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- NYC -->
+    <div class="destination-card">
+      <h3>New York City, USA</h3>
+      <img src="https://img.freepik.com/premium-photo/manhattan-panoramic-skyline-night-statue-liberty-with-manhattan-background-new-york-city-usa_1108314-950.jpg?w=740" alt="New York City skyline" />
+      <p>
+        The city that never sleeps — New York offers unmatched energy, iconic landmarks, and cultural diversity. Explore Times Square, Central Park, and Broadway, or dive into its world-class museums and global cuisine.
+      </p>
+      <div class="card-buttons">
+        <a href="https://visitnyc.com/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- Lofoten -->
+    <div class="destination-card">
+      <h3>Lofoten, Norway</h3>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.NhqEtcrYDogEraYjq6RYSgHaE6?pid=ImgDet&w=474&h=314&rs=1&o=7&rm=3" alt="Lofoten, Norway" />
+      <p>
+        Lofoten is Norway’s Arctic gem — a realm of fjords, auroras, and pristine wilderness. Experience kayaking, hiking, and the Northern Lights while exploring charming fishing villages and authentic Nordic life.
+      </p>
+      <div class="card-buttons">
+        <a href="https://www.visitnorway.com/places-to-go/northern-norway/lofoten/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- Dubai -->
+    <div class="destination-card">
+      <h3>Dubai, UAE</h3>
+      <img src="https://tse3.mm.bing.net/th/id/OIP.wNoRld4YncZtrHX9kqjpigHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dubai skyline" />
+      <p>
+        Dubai is a city of innovation and opulence — home to the Burj Khalifa, luxury resorts, and vast desert adventures. A perfect blend of tradition and modernity that redefines travel luxury.
+      </p>
+      <div class="card-buttons">
+        <a href="https://www.visitdubai.com/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+
+    <!-- Hanoi -->
+    <div class="destination-card">
+      <h3>Hanoi, Vietnam</h3>
+      <img src="https://assets3.thrillist.com/v1/image/3079903/1200x600/scale;;webp=auto;jpeg_quality=85.jpg" alt="Hanoi, Vietnam" />
+      <p>
+        Hanoi blends ancient charm and modern vitality. Wander through the Old Quarter, taste authentic street food, and discover its rich cultural tapestry of temples and colonial architecture.
+      </p>
+      <div class="card-buttons">
+        <a href="https://hanoiguides.com/hanoi-travel-guide-vietnam/" target="_blank"><button>Learn More</button></a>
+        <a href="Contact.html"><button>Book Now</button></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Roam Rush. All rights reserved.</p>
+  </footer>
+</body>
+</html>

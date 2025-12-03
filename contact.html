@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Roam Rush</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style_T.css" />
+
+  <!-- Optional: Better font styling -->
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ===== Header & Navigation ===== -->
+  <header>
+    <nav>
+      <h1>Roam Rush</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+    <form id="contact-form" action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label>Gender:</label>
+      <div>
+        <label>
+          <input type="radio" name="gender" value="male" required /> Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" /> Female
+        </label>
+      </div>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+
+      <button type="submit">Submit Details</button>
+    </form>
+  </section>
+
+  <!-- ===== Contact Info ===== -->
+  <section class="Contact-info">
+    <p><strong>Email:</strong> <a href="mailto:Aish@gmail.com">Aish@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+91947594xxxx">+91 94759 4xxxx</a></p>
+    <p><strong>Address:</strong> 123 Wander Lane, Ahmedabad, Gujarat</p>
+
+    <h3>Follow Us</h3>
+    <p class="social-links">
+      📸 <a href="#" target="_blank">Instagram</a> &nbsp;
+      💼 <a href="#" target="_blank">LinkedIn</a> &nbsp;
+      📘 <a href="#" target="_blank">Facebook</a> &nbsp;
+      🐦 <a href="#" target="_blank">Twitter</a>
+    </p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 <strong>Roam Rush</strong>. All rights reserved.</p>
+  </footer>
+
+  <!-- Optional: Small JavaScript for feedback -->
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for contacting Roam Rush! We’ll get back to you shortly.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
