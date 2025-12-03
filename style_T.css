@@ -272,3 +272,10 @@ img {
   margin: 0 auto;       /* keeps them centered */
   height: auto;         /* keeps proportions */
 }
+.destination img {
+  width: 80%;          /* reduce broadness (was 100%) */
+  max-height: 250px;   /* shrink vertical size */
+  object-fit: cover;   /* crop neatly without distortion */
+  display: block;      /* ensures proper centering */
+  margin: 0 auto;      /* centers the image */
+}
